@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<title>GarbBud</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="web.css">
+		<link rel="stylesheet" type="text/css" href="hamburger.css">
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.icon').click(function(){
+					$('.icon').toggleClass('active');
+					$('.button').toggleClass('active');
+					$('.buttonF').toggleClass('active');
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<div id="menu">
+			<div class="icon">
+				<div class="hamburger"></div>
+			</div>
+			<div class="buttonF"></div>
+			<a class="button" href="index.html"><h3>Główna</h3></a>
+			<a class="button"href="auta.html"><h3>Samochody</h3></a>
+			<a class="button"href="motocykle.html"><h3>Motocykle</h3></a>
+			<a class="button"href="traktory.html"><h3>Traktory</h3></a>
+		</div>
+		<div class="distance"></div>
+		<div id="info">
+			<div class="data">
+
+			</div>
+			<div class="data">
+				
+			</div>
+		</div>
+		<div class="table">
+			<div class="data">
+
+			</div>
+			<div class="data">
+				
+			</div>
+		</div>
+		<div class="pictures">
+
+		</div>
+		<div class="credits">
+			Stronę stwożyli "proszę o werble" Kuba-Miszczu-Rutkowsik (KMR) oraz
+			2 krotny Mistrz Juniorów w granu na nerwach Bartosz-Uczniu-Supeł oraz
+			światowej klasy wierdalacz kiełbasy DJ-Dewid-Sarna.
+		</div>
+	</body>
+</html>

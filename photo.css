@@ -1,0 +1,64 @@
+/* Mechanicy Team 
+    background: url(photo/mech.jpg);
+	background-position: 0 center;
+    background-size: 100vh;
+    filter:brightness(30%);
+*/
+.title img{
+    filter: brightness(30%);
+    width: 100%;
+    height: auto;
+}
+.cc{
+    height: 400px;
+    width: 600px;
+    margin: 10px;
+}
+.clients{
+    background: url(photo/baner.jpg);
+    background-position: 0 center;
+    background-size: 100vw;
+}
+.mech{
+    background-image: url(photo/mech.jpg);
+    background-position: center;
+    background-size: 90%;
+    filter:brightness(30%);
+    height: 100%;
+    width: 100%;
+}
+.bs{
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50px;
+}
+@media only screen and (max-width: 906px) {
+    .cc{
+        margin-left:auto;
+        margin-right:auto;
+        display: block;
+        height: 300px;
+        width: 450px;
+    }
+}
+/*////////////////////////////////////*/
+@media only screen and (max-width: 1906px) {
+    .mech{
+        background-size: 134%;
+    }
+}
+@media only screen and (max-width: 1506px) {
+    .mech{
+        background-size: 164%;
+    }
+}
+@media only screen and (max-width: 1206px) {
+    .mech{
+        background-size: 200%;
+    }
+}
+@media only screen and (max-width: 913px) {
+    .mech{
+        background-size: 250%;
+    }
+}

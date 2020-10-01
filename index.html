@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<title>GarbBud</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="web.css">
+		<link rel="stylesheet" type="text/css" href="photo.css">
+		<link rel="stylesheet" type="text/css" href="hamburger.css">
+		<link rel="stylesheet" type="text/css" href="fontello/css/fontello.css">
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script type="text/javascript" src="clock.js"></script>
+		<script src="jquery.scrollTo.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.icon').click(function(){
+					$('.icon').toggleClass('active');
+					$('.button').toggleClass('active');
+					$('.buttonF').toggleClass('active');
+				})
+			})
+			jQuery(function($){
+				$.scrollTo(0);
+				$('#c3').click(function(){ $.scrollTo($('#cap'), 500); });
+				$('#c2').click(function(){ $.scrollTo($('#pay'), 500); });
+				$('#c1').click(function(){ $.scrollTo($('#zesp'), 500); });
+			});
+		</script>
+	</head>
+	<body onload="timer();">
+		<div id="menu">
+			<div class="icon">
+				<div class="hamburger"></div>
+			</div>
+			<div class="buttonF"></div>
+			<a class="button" href="index.html"><h3>Strona Główna</h3></a>
+			<a class="button" href="auta.html"><h3>Samochody</h3></a>
+			<a class="button" href="motocykle.html"><h3>Motocykle</h3></a>
+			<a class="button" href="traktory.html"><h3>Traktory</h3></a>
+		</div> <div class="distance"></div>
+		<div class="title">
+			<img src="photo/garage.jpg" style="width:100%;">
+			<div>Warsztat Garb-Bud
+			<p>Naprawiamy nie uzależniamy!</p></div>
+		</div>
+		<div class="info">
+			<a id="c1" href="#" class="info-block">
+				<i class="icon-users"></i>
+				<p>Zatrudnij się</p>
+			</a>
+			<a id="c2" href="#" class="info-block">
+				<i class="icon-shield"></i>
+				<p>Umów sie na wizytę</p>
+			</a>
+			<a id="c3" href="#" class="info-block">
+				<i class="icon-plus"></i>
+				<p>Wiele Możlwości</p>
+			</a>
+		</div>
+		<div class="title-m">
+			Nasze Zalety
+		</div>
+		<div class="pros">
+			<div class="pros-block">
+				<i class="icon-basket"></i><br/><br/><br/>
+				Nowe profesjonalne części
+				<p><br/><br/>
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+				</p>
+			</div>
+			<div class="pros-block">
+				<i class="icon-rocket"></i><br/><br/><br/>
+				Szybka dostawa części oraz ekspresowa naprawa
+				<p><br/><br/>
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+				</p>
+			</div>
+			<div class="pros-block">
+				<i class="icon-shield"></i><br/><br/><br/>
+				Gwarancja najwyrzszej jakości na 12 miesięcy
+				<p><br/><br/>
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+				</p>
+			</div>
+			<div class="pros-block">
+				<i class="icon-wrench"></i><br/><br/><br/>
+				Duży wybór tuningu od modyfikacji wewnętrznych po lakier i zawieszenie
+				<p><br/><br/>
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+					text text text text text text text text text text text text
+				</p>
+			</div>
+		</div>
+		<div id="cap" class="title-m">
+			Nasze Morzliwości
+		</div>
+		<div id="capabilities">
+			<div class="cap">
+				<img class="cc" src="photo/tun.jpg" alt="E404">
+				<div id="cc1">
+					tuning text text text text text text text text text text text text text text text text
+					text text text text text text text text text text text text text text text text
+					text text text text text text text text text text text text text text text text
+				</div>
+			</div>
+			<div class="cap">
+				<div id="cc2">
+					naprawa text text text text text text text text text text text text text text text text
+					text text text text text text text text text text text text text text text text
+					text text text text text text text text text text text text text text text text
+				</div>
+				<div class="slider">
+					<div id="layer"></div>
+					<input type="range" value="20" max="100">
+				</div>
+			</div>
+			<div class="cap">
+				<img class="cc" src="photo/mot2.png" alt="E404">
+				<div id="cc1">
+					restauracja text text text text text text text text text text text text text text text text
+					text text text text text text text text text text text text text text text text
+					text text text text text text text text text text text text text text text text
+				</div>
+			</div>
+		</div>
+		<div class="clients">
+			Ponad 30Tyś Klientów
+		</div>
+		<div class="title-m">
+			Łatwy Dostęp
+		</div>
+		<div class="tel-map">
+			<div class="tm-block">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27639.30988832693!2d21.074827071300486!3d52.24351204727373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x205a7cf55e354459!2sGrab-Bud.%20PPHU.%20Grabowski%20A.!5e0!3m2!1spl!2spl!4v1600287559299!5m2!1spl!2spl"
+				 width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+			<div class="tm-block">
+				<p><i class="icon-phone"></i>
+                Tel. +48297175237</p><br/><br/>
+				<p><i class="icon-mail-alt"></i>
+                Mail. Garb-Bud@carfix.com</p><br/><br/>
+				<p><i class="icon-location"></i>
+                Ul. PPHU Nowy Świat, Nowy Sielc</p>
+			</div>
+		</div>
+		<div id="pay">
+			<a href="" class="pay-book">
+				<i style="font-size:44px;" class="icon-calendar-plus-o"></i><br/>Zapisz sie na wizytę
+			</a>
+			<div id="clock" class="clock">
+			</div>
+			<div class="pay-methods">
+				Możliwości zapłaty<br/>
+				<i class="icon-cc-visa"></i>
+				<i class="icon-cc-paypal"></i>
+				<i class="icon-cc-mastercard"></i>
+			</div>
+		</div>
+		<div id="zesp" class="title-m">
+			Nasz Zespół
+		</div>
+		<div id="team">
+			<div class="first">
+				<div class="data">
+					text text text<br/>
+                    jakies komentarze czy coś<br/>
+                    text text text<br/>
+                    text text text<br/>
+					text text text<br/>
+					<i class="icon-users"></i>
+				</div>
+				<div class="data">
+					<div class="mech"></div>
+				</div>
+			</div>
+			<div class="second">
+				<div class="boss">
+					<img class="bs" src="photo/bs2.jpg" alt="E404">
+					<br/><h4>Wojciech Kowalski</h4> 
+					text text texttext text texttext text texttext text text
+                    texttext text texttext text texttext text text
+				</div>
+				<div class="boss" style="border-left: 2px dashed #30303054; border-right: 2px dashed #30303054;">
+					<img class="bs" src="photo/bs3.jpg" alt="E404">
+					<br/><h4>Stanisław Bednarek</h4> 
+					text text texttext text texttext text texttext text text
+                    texttext text texttext text texttext text text
+				</div>
+				<div class="boss">
+					<img class="bs" src="photo/bs1.jpg" alt="E404">
+					<br/><h4>Marcin Bednarek</h4> 
+					text text texttext text texttext text texttext text text
+                    texttext text texttext text texttext text text
+				</div>
+			</div>
+		</div>
+		<div class="title-m">
+			Dołącz Do Nas
+		</div>
+		<div class="join-us">
+			<a href=""><i class="icon-play"></i> Zacznij już dziś</a>
+		</div>
+		<div class="credits">
+			Stronę stwożyli "proszę o werble" Kuba-Miszczu-Rutkowsik (KMR) oraz
+			2 krotny Mistrz Juniorów w granu na nerwach Bartosz-Uczniu-Supeł oraz
+			światowej klasy ruchacz małolaty DJ-Dejwid-Sarna.
+		</div>
+	</body>
+	<script>
+		document.querySelector(".slider input").addEventListener("input", function(){
+			document.querySelector("#layer").style.width = this.value + "%";
+		});
+	</script>
+</html>
